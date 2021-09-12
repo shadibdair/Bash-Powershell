@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ------ Version 1 ------
+# ------ Version 2 ------
 
 # Colored The Alerts Messages.
 GREEN="\033[1;32m" # For Bad Input
@@ -12,19 +12,43 @@ PURPLE='\x1B[01;95m' # Purple Text
 # ------------------------
 
 # The Main Function.
-main(){ 
-    # Pass The Argument To Shell Script - Called "Positional Parameter"
-    PASS=$1
-    # These Functios Validate Your Password.
-    contain_characters
-    contain_lowercase
-    contain_numbers
-    contain_uppercase
-    # --------------------------------
-    # Only If The Password Is Valid.
-    user_interface
-    echo -e " ${GREEN}You entered a valid password : ${PASS}"
-    exit 0   
+main(){
+    # If Statement - If The Input Equal to '-f'.  
+    if [ $1 == "-f" ] ; then
+        # Moved the Second Argument In Shell To 'read_content_file'.
+        read_content_file=$2
+        # Grep The Word "txt" And stored 
+        var="`find . | grep txt`"
+        # Show The Value Inside The Text File.
+        read_content_file="`cat $var`"
+        # Print The Value(password).
+        echo "Your password is  : $read_content_file"
+        # Pass The Value That Inside The 'read_content_file' To PASS.
+        PASS=$read_content_file
+        # These Functios Validate Your Password.
+        contain_characters
+        contain_lowercase
+        contain_numbers
+        contain_uppercase
+        # --------------------------------
+        # Only If The Password Is Valid.
+        user_interface
+        echo -e "${GREEN}You entered a valid password : ${PASS}"
+        exit 0        
+    else # Else Statememt - If The Input Is Not Equal To '-f'. 
+        # Pass The Argument To Shell Script - Called "Positional Parameter"
+        PASS=$1
+        # These Functios Validate Your Password.
+        contain_characters
+        contain_lowercase
+        contain_numbers
+        contain_uppercase
+        # --------------------------------
+        # Only If The Password Is Valid.
+        user_interface
+        echo -e " ${GREEN}You entered a valid password : ${PASS}"
+        exit 0   
+    fi
 }
 
 # Chcek If The Password Doesn't Contain At Least 10 Characters.
