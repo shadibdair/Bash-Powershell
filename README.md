@@ -65,3 +65,21 @@ You have to stand behind the requerments.
 
 ## How it look :
 <img width="1092" alt="Validator-Password-Powershell" src="https://user-images.githubusercontent.com/43513994/133108061-3bbccc3c-887d-421a-a4ab-523fcd57ff0d.png">
+
+---
+---
+
+## In the advanced branch - You found the bash script Password Validator ... (advanced script using GUI)
+#### If You want to run the project.
+  - git clone.
+  - before you run the script.
+    - run this command in your terminal(CMD) - `chmod +x [Filename.sh]`
+    - then - `./filename.sh -f "/path/password.txt"`
+    - add new text file, and insert in it "YoutPassword"
+   
+## What it do :
+Improved the script.\
+The Different in this script that, The script validate your password according what you insert in the text file.\
+That mean when you changed the password in your text file, the script will validate the new password according the text file.
+
+## How it look :
