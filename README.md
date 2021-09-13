@@ -45,3 +45,23 @@ That mean when you changed the password in your text file, the script will valid
 <img width="816" alt="v2-pic01" src="https://user-images.githubusercontent.com/43513994/133104068-ed745ae9-224c-4238-b096-d82169b237c3.png">
 <img width="812" alt="v2-pic02" src="https://user-images.githubusercontent.com/43513994/133104149-8acca3f2-08b6-4e77-8951-b14008712153.png">
 
+---
+---
+
+## In the powershell branch - You found the basic powershell script Password Validator
+#### If You want to run the project.
+  - git clone.
+  - before you run the script.
+    - run this command in your terminal(CMD) - `chmod +x [Filename.ps1]`
+    - then - `./filename.ps1 "YourPassword"`
+
+## What it do :
+This script ask you to insert your password then the script validated it.\
+You have to stand behind the requerments.
+#### The requerments is :
+ - Length – minimum of 10 characters.
+ - Contain both alphabet and number.
+ - Include both the small and capital case letters.
+
+## How it look :
+<img width="1092" alt="Validator-Password-Powershell" src="https://user-images.githubusercontent.com/43513994/133108061-3bbccc3c-887d-421a-a4ab-523fcd57ff0d.png">
