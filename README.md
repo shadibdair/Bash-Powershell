@@ -86,19 +86,28 @@ It's worked the same (Password Validator) ... BUT with amazing UI.
 ## How it look :
 - Step 1
 <img width="746" alt="step01" src="https://user-images.githubusercontent.com/43513994/133121557-6e6d5980-8fcb-426d-b244-2fa92a3f16ab.png">
+
 - Step 2
 <img width="1064" alt="step02" src="https://user-images.githubusercontent.com/43513994/133121654-fc381c60-b35c-4fc1-bca4-20588ad5d97a.png">
+
 - Step 3
 If you choosed number `2) The requerments of password` :
 <img width="1064" alt="step03" src="https://user-images.githubusercontent.com/43513994/133122685-a4b413b4-80d9-4fea-bfd0-227b2d45829a.png">
+
 - Step 4
+
 If you choosed number `1) Enter your password` :
-- Step 5
+
 <img width="1064" alt="step04" src="https://user-images.githubusercontent.com/43513994/133122910-2c1a9368-9e63-4db1-b54f-59126bf11906.png">
-- Step 6
+
+- Step 5
 <img width="1064" alt="step05" src="https://user-images.githubusercontent.com/43513994/133123080-5b9ff3ca-67d2-4eba-aba6-644c6d2d87d7.png">
-- Step 7
+
+- Step 6
 <img width="1064" alt="step06" src="https://user-images.githubusercontent.com/43513994/133123156-003ade67-2812-418f-8d62-18d25218da79.png">
-- Step 8
+
+- Step 7
+
 I Entered a Valid Password the result is :
+
 <img width="1064" alt="step07" src="https://user-images.githubusercontent.com/43513994/133123188-da3467dd-2c49-4503-a8c7-e1d1897fde16.png">
