@@ -1,5 +1,8 @@
 # Week_02
 - Bash Script Project Using Git -  Password Validator
+  - Version 1
+  - Version 2
+  - Bash script with GUI - Password Validator
 - PowerShell Script Using Git - Password Validator
 
 ---
