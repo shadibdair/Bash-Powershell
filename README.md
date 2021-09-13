@@ -1,9 +1,9 @@
 # Week_02
 - Bash Script Project Using Git -  Password Validator
-  - Version 1
-  - Version 2
-  - Bash script with GUI - Password Validator
-- PowerShell Script Using Git - Password Validator
+  - Version 1 (Main branch)
+  - Version 2 (Feature branch)
+  - Bash script with GUI - Password Validator (Advanced branch)
+- PowerShell Script Using Git - Password Validator (Powershell branch)
 
 ---
 
