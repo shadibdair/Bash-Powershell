@@ -7,6 +7,11 @@
 
 ---
 
+## The map of the branches:
+<img width="384" alt="map-branches" src="https://user-images.githubusercontent.com/43513994/133190876-4a1b9938-8480-4172-b2a1-afbd327e72ea.png">
+
+--
+
 ## In the main branch - You found the basic bash script Password Validator ... (version 1)
 #### If You want to run the project.
   - git clone.
