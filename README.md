@@ -8,7 +8,7 @@
 ---
 
 ## The map of the branches:
-<img width="384" alt="map-branches" src="https://user-images.githubusercontent.com/43513994/133190876-4a1b9938-8480-4172-b2a1-afbd327e72ea.png">
+<img width="535" alt="map" src="https://user-images.githubusercontent.com/43513994/133597702-352d70c1-0a27-448c-a25f-4709af9ee41b.png">
 
 ---
 
